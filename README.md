@@ -20,8 +20,7 @@ iOS工程师 男 18511403370 [hitbear518@gmail.com](mailto:hitbear518@gmail.com)
 旺店通 PDA app 是运行在以 Android 为操作系统并带有条码扫描功能的 PDA 手持设备上的，与 PC 端的旺店通 ERP 软件配套的 app，包括出入库，盘点，验货与下单等功能，具体功能可见于[**操作手册**](https://docs.google.com/document/d/1gICC6U-cLZVtTWrIJgedQl-biNbvvsLatf25GvCiDgA/edit?usp=sharing)。其中使用 Retrofit 获取 Json 数据，使用 Gson 解析，并采用 EventBus 广播的方式触发业务。
 
 ### 店通 ERP 查询 app
-旺店通ERP是一个给电商用户提供店铺整体资源管理的PC端产品。我所做的查询APP则是为了满足客户在移动端查询销售、采购、顾客、账单等统计信息的需求。App的数据来源是云端服务器，通过HTTP请求调用API接口获取数据。App的界面设计和业务逻辑的实现都是我一人负责的，包括后期的维护。
-<br/>
+旺店通 ERP 查询 app 是一个给电商用户提供店铺整体资源管理的 Android  app，是为了满足客户在移动端查询销售、采购、顾客、账单等统计信息的需求。App的数据来源是 PHP  后端，通过 Retrofit 请求调用 API 接口获取数据。App的界面设计和业务逻辑的实现都是我一人负责的，包括后期的维护。
 
 ## 自我描述
 > * 语言基础：熟悉 Swift, Objective - C，C，iOS 半年开发经验；Java（Android）两年开发经验。
