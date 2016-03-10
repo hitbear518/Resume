@@ -14,7 +14,7 @@ iOS工程师 男 18511403370 [hitbear518@gmail.com](mailto:hitbear518@gmail.com)
 
 ## 项目经历
 ### [iOS 记账 app](https://github.com/hitbear518/SwiftAccountBook)
-支持多标签的记账 app ，统计财务月收入与支出，可根据标签或日期统计，使用 CoreData 作为持久化存储。
+支持多标签的记账 app ，统计财务月收入与支出，可根据标签或日期统计，使用 CoreData 作为持久化存储。。一些细节可见与于：https://docs.google.com/document/d/1rSvodjM1kegTqUO5qTRR7bT5UaxRzmLjSx037bIxBqM/edit?usp=sharing
 
 ### 掌上先机 PDA
 旺店通 PDA app 是运行在以 Android 为操作系统并带有条码扫描功能的 PDA 手持设备上的，与 PC 端的旺店通 ERP 软件配套的 app，包括出入库，盘点，验货与下单等功能，具体功能可见于[**操作手册**](https://docs.google.com/document/d/1gICC6U-cLZVtTWrIJgedQl-biNbvvsLatf25GvCiDgA/edit?usp=sharing)。其中使用 Retrofit 获取 Json 数据，使用 Gson 解析，并采用 EventBus 广播的方式触发业务。
