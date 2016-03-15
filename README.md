@@ -29,6 +29,7 @@ ___
 > * 添加记录时，标签多选按钮与标签输入框同步，使用逗号分割（点击按钮自动添加或删除文字，输入文字自动选中或反选按钮）
 > * 设置界面点击设置开始记账日期，自动添加或删除日期选择 Cell
 > * 添加纪录界面，点击选择日期模拟 ActionSheet 效果。（自定义 UIPresentatioinController）
+
 [*部分截图与说明*](https://docs.google.com/document/d/1rSvodjM1kegTqUO5qTRR7bT5UaxRzmLjSx037bIxBqM/edit?usp=sharing)
 
 
