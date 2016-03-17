@@ -35,10 +35,12 @@ ___
 
 ### 旺店通 PDA app
 在多种硬件规格、系统版本的 Android PDA 上开发 ERP app，早期使用 NDK 调用与 PC 端相同的 C++ 接口以及条码扫描接口，后期切换至 PHP 后端与广播条码扫描接口。与客户、销售、实施人员确定需求，完成客户要求的下单、盘点、出入库、验货等业务。根据条码扫描广播，使用 Retrofit 获取后端数据、Gson 解析成不同的类，并按照不同的数据类自动触发 EventBus 事件处理业务。使用依赖注入（Butter Kinfe, IDE 自动生成代码）加速开发。
+使用BugHD SDK 上传分析 Crash。
 [*具体功能可见说明文档*](https://docs.google.com/document/d/1gICC6U-cLZVtTWrIJgedQl-biNbvvsLatf25GvCiDgA/edit?usp=sharing)
 
 ### 店通 ERP 查询 app
 与之前的 PDA app 采用相同的项目结构，除此之外，使用 Dagger2 加速开发。为企业主开发的业绩查询软件，满足客户在移动端查询销售、采购、顾客、账单等统计信息的需求
+使用BugHD SDK 上传分析 Crash。
 ___
 
 ## 教育经历
